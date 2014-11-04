@@ -1,0 +1,50 @@
+#softUI {
+	z-index: 85; /* the default for game objects is 84 */
+	width: 100%;
+	visibility: visible; 
+	position: absolute; 
+	top: 0, 
+	left: 0; 
+	opacity: 0.5;
+}
+
+.softUI {
+	position: relative;
+	display: block;
+}
+
+.circleButton {
+	height: 75px; /* needs to be absolute. the title is 49px */
+	width: 75px;
+
+	background-image: url('btn_normal.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.rectButton {
+	background-image: none;
+	background-color: grey;
+	height: 10px;
+	width: 75px;
+}
+
+#softUI_btnUp {
+	margin-left: 75px; /*25%;*/
+	margin-top: 0;
+}
+
+#softUI_btnLeft {
+	margin-left: 0;
+	margin-top: 0;
+}
+
+#softUI_btnRight {
+	margin-left: 150px; /*50%;*/
+	margin-top: -75px; /*-25%;*/
+}
+
+#softUI_btnDown {
+	margin-left: 75px; /*25%;*/
+	margin-top: 0;
+}
